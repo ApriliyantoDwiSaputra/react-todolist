@@ -33,7 +33,16 @@ function App() {
         />
         <button type="submit">Tambah</button>
       </form>
-      {/* Daftar tugas akan ditampilkan di sini */}
+
+      {/* Menampilkan daftar tugas */}
+      <ul className="todo-list">
+        {todos.map((todo, index) => (
+          <li key={index}>
+            {todo.text}
+          </li>
+        ))}
+      </ul>
+      
     </div>
   )
 }

@@ -63,16 +63,17 @@ form button {
 .todo-list li span {
   cursor: pointer;
   flex-grow: 1;
+  color: #303030;
 }
 
 .todo-list li.completed span {
   text-decoration: line-through;
-  color: #aaa;
+  color: #aaaaaa;
 }
 
 .todo-list li button {
   background: #f44336;
-  color: white;
+  color: rgb(205, 205, 205);
   border: none;
   padding: 5px 10px;
   border-radius: 4px;

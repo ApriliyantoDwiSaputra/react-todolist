@@ -23,7 +23,8 @@ function App() {
   return (
     <div className="app">
       <h1>Daftar Tugasku</h1>
-      <form>
+
+      <form onSubmit={handleAddTask}>
         <input 
           type="text"
           value={inputValue}
